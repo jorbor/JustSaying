@@ -7,5 +7,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyright("Copyright © JUST EAT plc 2013")]
 [assembly: ComVisible(false)]
 [assembly: AssemblyVersion("0.0.0")]
-
+[assembly: AssemblyInformationalVersionAttribute("4.1")]
 [assembly: CLSCompliant(false)]
