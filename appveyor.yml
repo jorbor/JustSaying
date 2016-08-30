@@ -26,4 +26,4 @@ deploy:
     secure: z9uSCdUVvor4vojIMrWmw0uJsFKmpTYPzk1GaWl0v8A3ArBODeClJoHme35QPnVp
   artifact: /.*nupkg/
   on:
-    APPVEYOR_REPO_TAG: true
+    APPVEYOR_REPO_TAG: false
