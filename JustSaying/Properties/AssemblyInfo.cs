@@ -11,6 +11,6 @@ using System.Runtime.InteropServices;
 
 [assembly: CLSCompliant(false)]
 
-[assembly: AssemblyInformationalVersionAttribute("4.1")]
+[assembly: AssemblyInformationalVersionAttribute("4.1.0.0")]
 
 [assembly: InternalsVisibleTo("JustSaying.UnitTests")]
