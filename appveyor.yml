@@ -22,6 +22,8 @@ artifacts:
 deploy:
 - provider: NuGet
   server: https://www.myget.org/F/justsaying/api/v2/package
+  skip_symbols: false
+  symbol_server: https://www.myget.org/F/justsaying/api/v2/package
   api_key:
     secure: z9uSCdUVvor4vojIMrWmw0uJsFKmpTYPzk1GaWl0v8A3ArBODeClJoHme35QPnVp
   artifact: /.*nupkg/
